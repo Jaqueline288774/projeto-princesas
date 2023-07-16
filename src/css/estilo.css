@@ -1,0 +1,88 @@
+body{
+    font-family: 'poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #1f021c;
+    background-color: #270227;
+    background-image: url(../imagens/floresta-rosa-p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+boby.modo-escuro{
+    background-color: rgba(11, 209, 235, 0.021);
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+header .logo, header .imagem-botao{
+    width: 30px;
+    transition: 0.2s ease-in-out;
+    
+}
+header #botao-alterar-tema{
+    background: none;
+    border: none;
+
+}
+header .logo:hover, header .imagem-botao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+main{
+    padding: 10px;
+}
+
+.listagem-princesas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+.cartao-princesas{
+    background-color: rgba(120, 200, 214, 0.753);
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+main .cartao-princesas:hover{
+    background-color: rgba(223, 58, 184, 0.288);
+}
+.modo-escuro .cartao-princesas{
+    background-color: antiquewhite
+
+
+}
+
+main .cartao-princesas .informacoes{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+
+main .cartao-princesas .informacoes spa{
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-princesas .imagem{
+    width: 90px;
+    height: 90px;
+
+}
